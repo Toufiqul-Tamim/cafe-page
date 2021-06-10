@@ -1,0 +1,57 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+
+header{width: 100vw;height: 100vh;background-color: teal;
+background-image:linear-gradient(
+    rgba(131, 62, 6, 0.678),
+    rgba(131, 62, 6, 0.678)),
+     url(restaurant.jpg);
+    background-size: cover;
+    background-position: center;
+    position:relative;
+
+}
+.navbar{height: 10%;
+background-color: ;
+display: flex;position: relative;}
+
+
+.left{flex-basis: 30%;
+background-color: white;padding-left: 10px;}
+
+.icon ul li{list-style-type: none;
+display: inline-block;padding-right: 35px;
+}
+.icon ul li i{color:grey;font-size:35px;}
+.icon ul li i:hover{font-size: 3.5rem;color: rgb(0, 0, 0);}
+
+
+.right{flex-basis: 70%;}
+.menu{position:absolute;right: 5%}
+ .menu li{display:inline-block; text-align: center;margin-right: 2cm;font-family: 'Lobster', cursive;}
+   .menu ul li a{text-decoration: none;color: white;font-weight: bolder; font-size: 1.5rem;}
+      .menu ul li a:hover{background-color: rgba(65, 48, 45, 0.685);color: rgb(194, 15, 54);border-radius: 10px;}
+
+
+
+.content{box-sizing: border-box;
+display: flex;}
+
+
+.contentleft{flex-basis: 30%;
+background-color: white;}
+
+.contentright{flex-basis: 70%;}
+
+
+.cup img{position:absolute;
+left: 5%;}
+.name h1{color: honeydew;
+font-size: 3.5rem; position:absolute;bottom: 2%;right: 2%;
+text-shadow: 2px 5px 3px rgb(80, 78, 78);}
+
+.para{font-size: 3rem;color: rgb(207, 191, 191);font-family: 'Dancing Script', cursive;
+position:absolute;
+right:15%;
+top: 60%;}
+
+
